@@ -2,7 +2,8 @@ import {EmbedBuilder} from 'discord.js'
 import { Question } from '../types';
 
 
-export const createEmbedSale = (data: Question) => {
+export const createEmbedQuestion = (data: Question) => {
+    // Create embed
     const embed = new EmbedBuilder()
       .setColor(0xcc0000)
       .setTitle(data.title)
@@ -20,7 +21,7 @@ export const createEmbedSale = (data: Question) => {
       .setTimestamp(data.creation_date)
       .setFooter({
         text: `Powered by WBA`,
-        iconURL: 'https://web3-builders-alliance.github.io/solana-course/logo-glyph.svg',
+        iconURL: 'attachment://se.ico',
       })
       
     return embed  
