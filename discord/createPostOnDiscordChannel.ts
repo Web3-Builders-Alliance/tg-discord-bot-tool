@@ -6,7 +6,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 //Load OpenSea icon
-const file = new AttachmentBuilder('./icon/se.ico');
+const file = new AttachmentBuilder(`${__dirname}/icon/se.ico`);
 
 
 // Send message on discord
