@@ -7,7 +7,7 @@ This project is a tool designed to stream questions asked in a Stack Exchange co
 
 To clone the repository, use the following command:
 
-```git clone https://github.com/thisissamridh/tg-discord-bot-tool.git```
+```git clone https://github.com/Web3-Builders-Alliance/tg-discord-bot-tool.git```
 
 # Installation
 
