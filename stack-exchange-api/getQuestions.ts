@@ -1,10 +1,9 @@
 import fetch from 'node-fetch';
 import { QuestionResponse } from '../types';
 
-export const getQuestions = async (minutes : number, site: string) => {
+export const getQuestions = async (seconds : number, site: string) => {
 
     // Date X minutes ago
-    const seconds = minutes * 60
     const date = ((Math.floor((Date.now()/1000)/seconds))*seconds)-seconds
 
     // Call StackExchange API
