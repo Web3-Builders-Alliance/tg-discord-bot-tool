@@ -23,7 +23,7 @@ export const repos: RepoInfo[] = [
     },
     {
         owner:'solana-labs',
-        repo: 'cargo ',
+        repo: 'cargo',
         lastReleaseDate: undefined,
     },
     {
