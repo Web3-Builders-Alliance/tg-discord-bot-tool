@@ -3,10 +3,6 @@ export type RepoInfo = {
     repo: string,
     lastReleaseDate?: string,
 }
-export type ORGInfo = {
-    name :string
-    repo : RepoInfo[]
-}
 
 export type Release = {
     author: {
