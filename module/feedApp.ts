@@ -40,4 +40,3 @@ import githubApi from "../github/api";
         console.log(error)
     }
 })()
-
